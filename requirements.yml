@@ -1,5 +1,15 @@
 # from GitLab or other git-based scm
+- src: git@git.wecash.net:ansible-roles/wecash.common.git
+  scm: git
+  version: "master"
+  name: wecash.common
+
 - src: git@git.wecash.net:ansible-roles/wecash.miniconda.git
   scm: git
   version: "master"
   name: wecash.miniconda
+
+- src: git@git.wecash.net:ansible-roles/wecash.supervisor.git
+  scm: git
+  version: "master"
+  name: wecash.supervisor
