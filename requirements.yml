@@ -4,6 +4,11 @@
   version: "master"
   name: wecash.common
 
+- src: git@git.wecash.net:ansible-roles/wecash.ldapinit.git
+  scm: git
+  version: "master"
+  name: wecash.ldapinit
+
 - src: git@git.wecash.net:ansible-roles/wecash.miniconda.git
   scm: git
   version: "master"

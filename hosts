@@ -1,1 +1,3 @@
 
+[all]
+jenkins-pipeline-test ansible_host=10.41.11.38
