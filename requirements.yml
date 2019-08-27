@@ -18,3 +18,8 @@
   scm: git
   version: "master"
   name: wecash.supervisor
+
+- src: git@git.wecash.net:ansible-roles/wecash.conda_env.git
+  scm: git
+  version: "master"
+  name: wecash.conda_env
