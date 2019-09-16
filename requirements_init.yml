@@ -1,7 +1,7 @@
 # from GitLab or other git-based scm
 - src: git@git.wecash.net:ansible-roles/wecash.common.git
   scm: git
-  version: "master"
+  version: "pipeline"
   name: wecash.common
 
 - src: git@git.wecash.net:ansible-roles/wecash.ldapinit.git
