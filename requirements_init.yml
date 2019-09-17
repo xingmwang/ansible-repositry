@@ -23,3 +23,8 @@
   scm: git
   version: "master"
   name: wecash.conda_env
+
+- src: git@git.wecash.net:ansible-roles/wecash.jdk.git
+  scm: git
+  version: "pipeline"
+  name: wecash.jdk
