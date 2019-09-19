@@ -1,5 +1,5 @@
 # from GitLab or other git-based scm
-- src: git@git.wecash.net:ansible-roles/wecash.jdk.git
+- src: git@git.wecash.net:ansible-roles/jar_deploy.git
   scm: git
   version: "master"
   name: wecash.jar_deploy
