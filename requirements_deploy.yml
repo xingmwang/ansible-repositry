@@ -4,7 +4,7 @@
   version: "master"
   name: wecash.jar_deploy
 
-- src: git@git.wecash.net:ansible-roles/wecash.python_deploy.git
+- src: git@git.wecash.net:ansible-roles/python_deploy.git
   scm: git
-  version: "pipeline"
+  version: "master"
   name: wecash.python_deploy
