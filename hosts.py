@@ -17,7 +17,7 @@ try:
 except ImportError:
     from urllib2 import urlopen, Request  # Python 2
 
-host = "http://wefocus.svc.wecash.net"
+host = "http://wefocus.wecash.net"
 
 ansible_ssh_user = "root"
 
