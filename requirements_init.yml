@@ -28,3 +28,8 @@
   scm: git
   version: "pipeline"
   name: wecash.jdk
+
+- src: git@git.wecash.net:ansible-roles/wecash.openjdk.git
+  scm: git
+  version: "master"
+  name: wecash.openjdk
