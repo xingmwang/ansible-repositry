@@ -1,13 +1,9 @@
 # from GitLab or other git-based scm
 - src: git@git.wecash.net:ansible-roles/jar_deploy.git
   scm: git
-  version: "master"
+  version: "pipeline"
   name: wecash.jar_deploy
 
-#- src: git@git.wecash.net:ansible-roles/python_deploy.git
-#  scm: git
-#  version: "master"
-#  name: wecash.python_deploy
 - src: git@git.wecash.net:ansible-roles/wecash.python_deploy.git
   scm: git
   version: "pipeline"
