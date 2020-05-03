@@ -12,7 +12,10 @@
   scm: git
   version: "master"
   name: wecash.node_deploy
+<<<<<<< HEAD
 
+=======
+>>>>>>> ab6deb21b3aa84aba7b4af1f9bcc922732ac18e7
 - src: git@git.wecash.net:ansible-roles/wecash.go_deploy.git
   scm: git
   version: "master"
