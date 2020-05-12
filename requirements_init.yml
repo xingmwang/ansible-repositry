@@ -37,4 +37,4 @@
 - src: git@git.wecash.net:ansible-roles/wecash.nodejs.git
   scm: git
   version: "master"
-  name: wecash.nodejsinit
+  name: wecash.nodejs
