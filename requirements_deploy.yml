@@ -1,5 +1,5 @@
 # from GitLab or other git-based scm
-- src: git@git.wayne.net:ansible-roles/jar_deploy.git
+- src: git@git.wayne.net:ansible-roles/wayne.jar_deploy.git
   scm: git
   version: "master"
   name: wayne.jar_deploy
