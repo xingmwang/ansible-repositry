@@ -3,7 +3,7 @@
 
 """
 @author: gongxiude
-@contact: gongxd@wecash.net
+@contact: gongxd
 @file: hosts.py 
 @time: 2019/9/16 11:10 AM
 @description:
@@ -17,7 +17,7 @@ try:
 except ImportError:
     from urllib2 import urlopen, Request  # Python 2
 
-host = "http://wefocus.wecash.net"
+host = "http://wefocus.example.net"
 
 ansible_ssh_user = "root"
 

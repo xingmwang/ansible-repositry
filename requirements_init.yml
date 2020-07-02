@@ -1,40 +1,40 @@
 # from GitLab or other git-based scm
-- src: git@git.wecash.net:ansible-roles/wecash.common.git
-  scm: git
-  version: "pipeline"
-  name: wecash.common
-
-- src: git@git.wecash.net:ansible-roles/wecash.ldapinit.git
+- src: git@git.wayne.net:ansible-roles/wayne.common.git
   scm: git
   version: "master"
-  name: wecash.ldapinit
+  name: wayne.common
 
-- src: git@git.wecash.net:ansible-roles/wecash.miniconda.git
+- src: git@git.wayne.net:ansible-roles/wayne.ldapinit.git
   scm: git
   version: "master"
-  name: wecash.miniconda
+  name: wayne.ldapinit
 
-- src: git@git.wecash.net:ansible-roles/wecash.supervisor.git
+- src: git@git.wayne.net:ansible-roles/wayne.miniconda.git
   scm: git
   version: "master"
-  name: wecash.supervisor
+  name: wayne.miniconda
 
-- src: git@git.wecash.net:ansible-roles/wecash.conda_env.git
+- src: git@git.wayne.net:ansible-roles/wayne.supervisor.git
   scm: git
   version: "master"
-  name: wecash.conda_env
+  name: wayne.supervisor
 
-- src: git@git.wecash.net:ansible-roles/wecash.jdk.git
-  scm: git
-  version: "pipeline"
-  name: wecash.jdk
-
-- src: git@git.wecash.net:ansible-roles/wecash.openjdk.git
+- src: git@git.wayne.net:ansible-roles/wayne.conda_env.git
   scm: git
   version: "master"
-  name: wecash.openjdk
+  name: wayne.conda_env
 
-- src: git@git.wecash.net:ansible-roles/wecash.nodejs.git
+- src: git@git.wayne.net:ansible-roles/wayne.jdk.git
   scm: git
   version: "master"
-  name: wecash.nodejs
+  name: wayne.jdk
+
+- src: git@git.wayne.net:ansible-roles/wayne.openjdk.git
+  scm: git
+  version: "master"
+  name: wayne.openjdk
+
+- src: git@git.wayne.net:ansible-roles/wayne.nodejs.git
+  scm: git
+  version: "master"
+  name: wayne.nodejs

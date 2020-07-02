@@ -1,6 +1,6 @@
-# C端Ansible脚本仓库
+# Ansible脚本仓库
 
-> 本仓库为C端ansible入口文件仓库,需要配合ansible-galaxy使用,需要保持此仓库为最新,且通过ansible-galaxy维护roles为最新
+> 本仓库为ansible入口文件仓库,需要配合ansible-galaxy使用,需要保持此仓库为最新,且通过ansible-galaxy维护roles为最新
 
 
 ## 建议使用方法
@@ -14,14 +14,16 @@
 保持此仓库为最新,并且执行以下命令拉取galaxy-roles
 
 ```
-ansible-galaxy install -r requirements.yml
+ansible-galaxy install -r requirements_deploy.yml
+ansible-galaxy install -r requirements_init.yml
 ```
 
 ## 升级roles
 使用`-f`参数来强制升级roles版本
 
 ```
-ansible-galaxy install -f -r requirements.yml
+ansible-galaxy install -f -r requirements_deploy.yml
+ansible-galaxy install -f -r requirements_init.yml
 ```
 
 ## gitignore

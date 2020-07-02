@@ -1,24 +1,24 @@
 # from GitLab or other git-based scm
-- src: git@git.wecash.net:ansible-roles/jar_deploy.git
-  scm: git
-  version: "pipeline"
-  name: wecash.jar_deploy
-
-- src: git@git.wecash.net:ansible-roles/wecash.python_deploy.git
-  scm: git
-  version: "pipeline"
-  name: wecash.python_deploy
-- src: git@git.wecash.net:ansible-roles/wecash.node_deploy.git
+- src: git@git.wayne.net:ansible-roles/jar_deploy.git
   scm: git
   version: "master"
-  name: wecash.node_deploy
+  name: wayne.jar_deploy
 
-- src: git@git.wecash.net:ansible-roles/wecash.go_deploy.git
+- src: git@git.wayne.net:ansible-roles/wayne.python_deploy.git
   scm: git
   version: "master"
-  name: wecash.go_deploy
-
-- src: git@git.wecash.net:ansible-roles/wecash.nodejs_deploy.git
+  name: wayne.python_deploy
+- src: git@git.wayne.net:ansible-roles/wayne.node_deploy.git
   scm: git
   version: "master"
-  name: wecash.nodejs_deploy
+  name: wayne.node_deploy
+
+- src: git@git.wayne.net:ansible-roles/wayne.go_deploy.git
+  scm: git
+  version: "master"
+  name: wayne.go_deploy
+
+- src: git@git.wayne.net:ansible-roles/wayne.nodejs_deploy.git
+  scm: git
+  version: "master"
+  name: wayne.nodejs_deploy
